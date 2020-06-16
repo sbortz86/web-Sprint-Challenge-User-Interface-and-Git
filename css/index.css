@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -81,7 +80,6 @@ p {
 .jumbo {
     margin: 5px;
     padding: 10px;
-    margin-left: -30px;
 }
 .top-content {
     display: flex;
@@ -90,6 +88,7 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
     margin-left: 30px;
+    width: 95%;
 }
 .top-content .text-container {
     width: 48%;
@@ -121,10 +120,11 @@ p {
     margin: 10px 2.5%;
     color: white;
     display: flex;
-    align-items: center;
+    /*align-items: center;*/
     justify-content: center;
     flex-direction: row;
     position: absolute;
+    width: 75%;
 }
 .boxes {
     flex-direction: row;
@@ -238,13 +238,11 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
-footer {
-    width: 100%;
+.footer {
+    width: 95%;
     background: black;
     margin-left: 20px;
 }
-
 .footer nav {
     width: 60%;
     display: flex;
